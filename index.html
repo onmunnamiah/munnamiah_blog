@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog Website</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link with css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header starts here -->
+    <header id="blog-header">
+        <figure class="logo-figure">
+            <h2 class="my__name">Munna Miah</h2>
+            <!-- <i class="fa-solid fa-wand-magic-sparkles logo"></i> -->
+        </figure>
+
+        <i class="fas fa-bars fa-4x" id="menu-icon2"></i>
+
+        <nav id="menu-icon" class="hidden">
+            <ul>
+                <li><a href="./index.html" class="nav__link">Home</a></li>
+                <li><a href="#blog-about" class="nav__link">About</a></li>
+                <li><a href="#archives" class="nav__link">Archives</a></li>
+                <li><a href="#blog-post" class="nav__link">Blog Posts</a></li>
+                <li><a href="#contact-section" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header ends here -->
+
+    <main>
+        <!-- blog-banner section starts here -->
+        <section id="blog-banner-section" class="banner">
+            <article>
+                <h1 class="banner__heading">Welcome to My Blog</h1>
+                <p class="banner__description text-justify">I’m an AI and IoT enthusiast, sharing my journey as a
+                    fourth-year student at Daffodil International University, majoring in Artificial Intelligence in
+                    IoT. This blog is where I document my experiences, from university projects to exploring
+                    cutting-edge AI trends, web development tutorials, and my preparations for studying abroad. I invite
+                    you to join me as I navigate the world of technology and personal growth.</p>
+            </article>
+            <aside>
+                <img src="/images/cover-about-blog.avif" alt="Cover Photo" class="banner__img">
+            </aside>
+        </section>
+        <!-- blog-banner section ends here -->
+
+        <!-- about-me section starts here -->
+        <section id="blog-about" class="section-center">
+            <h2 class="section-heading text-white">About Me</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3 class="card__header">Undergraduate Study (BSc)</h3>
+                    <p class="card__description"> I am currently a fourth-year student at Daffodil
+                        International University in Bangladesh, pursuing a degree in Computing and Information System
+                        with a major in Artificial Intelligence in IoT. I have maintained a CGPA of 3.25 out of 4,
+                        reflecting my strong academic performance in this field. My coursework has equipped me with
+                        essential skills in AI, IoT, and computing, aligning with my interest in cutting-edge
+                        technologies and research in artificial intelligence. <br> <br> </p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__header">Undergraduate Study (BSc)</h3>
+                    <p class="card__description"> I am currently a fourth-year student at Daffodil
+                        International University in Bangladesh, pursuing a degree in Computing and Information System
+                        with a major in Artificial Intelligence in IoT. I have maintained a CGPA of 3.25 out of 4,
+                        reflecting my strong academic performance in this field. My coursework has equipped me with
+                        essential skills in AI, IoT, and computing, aligning with my interest in cutting-edge
+                        technologies and research in artificial intelligence. <br> <br> </p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__header">Undergraduate Study (BSc)</h3>
+                    <p class="card__description"> I am currently a fourth-year student at Daffodil
+                        International University in Bangladesh, pursuing a degree in Computing and Information System
+                        with a major in Artificial Intelligence in IoT. I have maintained a CGPA of 3.25 out of 4,
+                        reflecting my strong academic performance in this field. My coursework has equipped me with
+                        essential skills in AI, IoT, and computing, aligning with my interest in cutting-edge
+                        technologies and research in artificial intelligence. <br> <br> </p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+            </div>
+        </section>
+        <!-- about-me section ends here -->
+
+        <!-- archive section starts here -->
+        <section id="archives" class="section-center">
+            <h2 class="section-heading banner__heading">Archives</h2>
+            <div class="archives-container">
+                <ul class="archives-container__lists">
+                    <li class="archives-container__list">
+                        <img src="/images/archieves/ai_iot_robot.jpg" alt="image1" class="archives__img">
+                    </li>
+
+                    <li class="archives-container__list">
+                        <img src="/images/archieves/ai_iot_robot.jpg" alt="image2" class="archives__img">
+                    </li>
+
+                    <li class="archives-container__list">
+                        <img src="/images/archieves/ai_iot_robot.jpg" alt="image3" class="archives__img">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- archive section ends here -->
+
+        <!-- blog-post section starts here -->
+        <section id="blog-post" class="section-center">
+            <h2 class="section-heading banner__heading">Blog Posts</h2>
+            <div class="blog-posts section-center">
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <img src="images/blog-post/related_ai_iot.jpg" alt="blog-img1">
+                    </aside>
+                    <article class="blog-post__content">
+                        <h2 class="blog-post__heading">Blog 1</h2>
+                        <h3 class="blog-post__sub-heading">Sub Title</h3>
+                        <p class="blog-post__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tempora qui, rerum a mollitia
+                            iusto quae, praesentium porro placeat non veritatis totam harum! Nihil fugiat, labore odit
+                            molestias adipisci at?
+                        </p>
+                        <button class="btn blog-post__btn">Learn More</button>
+                    </article>
+                </div>
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <img src="images/blog-post/related_ai_iot.jpg" alt="blog-img1">
+                    </aside>
+                    <article class="blog-post__content">
+                        <h2 class="blog-post__heading">Blog 2</h2>
+                        <h3 class="blog-post__sub-heading">Sub Title</h3>
+                        <p class="blog-post__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tempora qui, rerum a mollitia
+                            iusto quae, praesentium porro placeat non veritatis totam harum! Nihil fugiat, labore odit
+                            molestias adipisci at?
+                        </p>
+                        <button class="btn blog-post__btn">Learn More</button>
+                    </article>
+                </div>
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <img src="images/blog-post/related_ai_iot.jpg" alt="blog-img1">
+                    </aside>
+                    <article class="blog-post__content">
+                        <h2 class="blog-post__heading">Blog 3</h2>
+                        <h3 class="blog-post__sub-heading">Sub Title</h3>
+                        <p class="blog-post__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tempora qui, rerum a mollitia
+                            iusto quae, praesentium porro placeat non veritatis totam harum! Nihil fugiat, labore odit
+                            molestias adipisci at?
+                        </p>
+                        <button class="btn blog-post__btn">Learn More</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- blog-post section ends here -->
+
+        <!-- contact section starts here -->
+        <section id="contact-section" class="section-center">
+            <h2 class="section-heading text-white">Contact Me</h2>
+            <form>
+                <div class=" from-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" autocomplete="name" required>
+                </div>
+                <div class="from-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" autocomplete="email" required>
+                </div>
+                <div class="from-control">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="from-control form-btn-field">
+                    <button class="btn contact__btn">Submit</button>
+                </div>
+            </form>
+        </section>
+        <!-- contact section ends here -->
+    </main>
+
+    <footer class="footer">
+        <p class="copyright__text">
+            Copyright &copy; by Munna Miah. All rights reserved.
+        </p>
+        <nav class="footer__nav">
+            <a href="#blog-banner-section" class="footer__link">
+                <i class="fa fa-home footer__icon"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100092332230607" target="_blank" class="footer__link">
+                <i class="fab fa-facebook footer__icon"></i>
+            </a>
+            <a href=" https://www.youtube.com/@munnamiah1565" target="_blank" class="footer__link">
+                <i class="fab fa-youtube footer__icon"></i>
+            </a>
+            <a href="https://github.com/onmunnamiah" target="_blank" class="footer__link">
+                <i class="fab fa-github footer__icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/munnamiah/" target="_blank" class="footer__link">
+                <i class="fab fa-linkedin footer__icon"></i>
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
